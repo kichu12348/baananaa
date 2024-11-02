@@ -42,7 +42,7 @@ function PhilosophicalCat() {
     },
   ];
   const generationConfig = {
-    temperature: 0.5,
+    temperature: 0.9,
   };
 
   const model = genAI.getGenerativeModel({

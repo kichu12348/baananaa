@@ -103,6 +103,11 @@
     text-align: center;
     padding: 2rem;
     color: #6b7280;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
   }
   
   /* Color variations */
@@ -113,6 +118,8 @@
   .red { background-color: #fee2e2; }
   .orange { background-color: #ffedd5; }
   .teal { background-color: #ccfbf1; }
+  .pink { background-color: #fde8e8; }
+  .violet { background-color: #f5f3ff; }
   
   .purple:hover { background-color: #e9d5ff; }
   .blue:hover { background-color: #bae6fd; }
@@ -121,13 +128,14 @@
   .red:hover { background-color: #fecaca; }
   .orange:hover { background-color: #fed7aa; }
   .teal:hover { background-color: #99f6e4; }
+  .pink:hover { background-color: #f9c5c5; }
+  .violet:hover { background-color: #e4e0ff; }
   
   @keyframes spin {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
   }
   
-  /* Media queries for responsiveness */
   @media (min-width: 768px) {
     .grid {
       grid-template-columns: repeat(2, 1fr);
