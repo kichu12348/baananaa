@@ -143,7 +143,6 @@ const SecretFind = () => {
               left: imagePosition.x - 30,
               top: imagePosition.y - 30,
             }}
-            preload="auto"
           />
           <button className={styles.closeButton} onClick={handleClose}>
             Play Again
