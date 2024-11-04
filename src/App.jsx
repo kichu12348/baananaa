@@ -21,19 +21,19 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path='/' element={<Home/>}/>
-        <Route path='/dashboard' element={<Dashboard />} />
-        <Route path='/endless-scroll' element={<EndlessScroll/>} />
-        <Route path='/philosophical-cat' element={<PhilosophicalCat/>} />
-        <Route path='/progress-bars' element={<PointlessProgressBars/>}/>
-        <Route path='invisible-history' element={<InvisibleMuseum/>}/>
-        <Route path='/fortune-potato' element={<FortuneTellerPotato/>} />
-        <Route path='/rate-air' element={<RateMyAir/>}/>
-        <Route path='/secret-click' element={<SecretClick/>}/>
-        <Route path='/stacking-paper-clips' element={<StackingPaperClips/>} />
-        <Route path='/baking-air' element={<BakingAir/>} />
-        <Route path="*" element={<Navigate to="/" />} />
+        <Route path="/baananaa/login" element={<Login />} />
+        <Route path='/baananaa' element={<Home/>}/>
+        <Route path='/baananaa/dashboard' element={<Dashboard />} />
+        <Route path='/baananaa/endless-scroll' element={<EndlessScroll/>} />
+        <Route path='/baananaa/philosophical-cat' element={<PhilosophicalCat/>} />
+        <Route path='/baananaa/progress-bars' element={<PointlessProgressBars/>}/>
+        <Route path='/baananaa/invisible-history' element={<InvisibleMuseum/>}/>
+        <Route path='/baananaa/fortune-potato' element={<FortuneTellerPotato/>} />
+        <Route path='/baananaa/rate-air' element={<RateMyAir/>}/>
+        <Route path='/baananaa/secret-click' element={<SecretClick/>}/>
+        <Route path='/baananaa/stacking-paper-clips' element={<StackingPaperClips/>} />
+        <Route path='/baananaa/baking-air' element={<BakingAir/>} />
+        <Route path="*" element={<Navigate to="/baananaa" />} />
       </Routes>
     </Router>
   )
