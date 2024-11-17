@@ -20,7 +20,7 @@ function PhilosophicalCat() {
         testCar4
     ]
 
-    const genAI = new GoogleGenerativeAI("AIzaSyDJejl17d53lZO8Tnl-vv7nwDWG8bQDA9Y");
+    const genAI = new GoogleGenerativeAI("AIzaSyBDGayU5oxZzHpQQbxpW3S54h34_pdZDLw");
 
       // AI model
   const safetySettings = [
