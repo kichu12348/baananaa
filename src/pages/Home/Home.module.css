@@ -1,3 +1,4 @@
+
 .container {
     min-height: 100vh;
     background: linear-gradient(to bottom, #ffffff, #f3f4f6);
@@ -23,7 +24,7 @@
     right: -2rem;
     width: 2rem;
     height: 2rem;
-    color: #fbbf24;
+    color: hsl(var(--sparkle-hue), 96%, 56%);
     animation: spin 4s linear infinite;
   }
   

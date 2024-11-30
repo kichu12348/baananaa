@@ -19,8 +19,8 @@ function PhilosophicalCat() {
         testCar3,
         testCar4
     ]
-
-    const genAI = new GoogleGenerativeAI("AIzaSyBDGayU5oxZzHpQQbxpW3S54h34_pdZDLw");
+    const apiKey= import.meta.env.VITE_API_KEY;
+    const genAI = new GoogleGenerativeAI(apiKey);
 
       // AI model
   const safetySettings = [

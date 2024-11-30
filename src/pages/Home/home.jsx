@@ -1,5 +1,5 @@
 // Home.jsx
-import React, { useState } from "react";
+import React, { useEffect, useState} from "react";
 import {
   Sparkles,
   ScrollText,
@@ -84,13 +84,25 @@ const pages = [
 
 const Home = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
+  const [hue, setHue] = useState(0);
+  useEffect(()=>{
+    const interval = setInterval(() => {
+      setHue((prevHue) => (prevHue + 1) % 360);
+    }, 100);
+    return () => clearInterval(interval);
+  })
 
   return (
     <div className={styles.container}>
       <header className={styles.header}>
         <h1 className={styles.title}>
           USELESS
-          <Sparkles className={styles.sparkle} />
+          <Sparkles 
+          className={styles.sparkle} 
+          style={{
+            "--sparkle-hue": `${hue}deg`,
+          }}
+          />
         </h1>
         <p className={styles.subtitle}>
           Welcome to the most purposefully pointless collection of digital

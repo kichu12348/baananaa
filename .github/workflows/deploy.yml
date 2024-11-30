@@ -1,5 +1,8 @@
 name: Deploy
 
+env:
+  VITE_API_KEY: ${{ secrets.VITE_API_KEY }}
+
 on:
   push:
     branches:
